@@ -35,7 +35,7 @@
     in VSCode go to Extensions <br />
     ![image](https://user-images.githubusercontent.com/90350173/148344532-c8237ec5-e1e6-4bbc-a2da-fa5695468612.png) <br />
     and install the `C#` and `code runner` extensions <br />
-    now go to `File` -> `Preferences` -> `Settings` <br />
+    now go to `File` ➔ `Preferences` ➔ `Settings` <br />
     search `run in terminal` and enable `Code-runner: Run In Terminal` <br />
     ![image](https://user-images.githubusercontent.com/90350173/148344770-9a31a637-9d65-44b9-b8ec-bea6071e3a9d.png) <br />
     click on the 'open settings' icon top right <br />
@@ -48,8 +48,8 @@
     save the file. <br />
 <br />
 ### Manual-Install(set-up C# project)
-   open in `File` -> `Open Folder...` your chosen work directory <br />
-   then go to `Terminal` -> `New Terminal` <br />
+   open in `File` ➔ `Open Folder...` your chosen work directory <br />
+   then go to `Terminal` ➔ `New Terminal` <br />
    🞄 to create a console application run the next command: <br />
    `sudo dotnet new console` <br />
    🞄 then to be able to save your project run: <br />
