@@ -13,14 +13,14 @@ DefDir=$(pwd)
 echo -e "${BO}=====================[${RED}Installing dependencies...${BO}]=====================${NC}"
 sudo pacman -S dotnet-sdk git
 echo -e "${BO}===================[${RED}Downloading AUR dependencies...${BO}]==================${NC}"
-#cd "/home/"$userName"/Downloads/"
-#git clone https://AUR.archlinux.org/visual-studio-code-bin.git
-#cd visual-studio-code-bin/
-#makepkg
-#sudo pacman -U visual-studio-code-bin-*
-#cd ..
+cd "/home/"$userName"/Downloads/"
+git clone https://AUR.archlinux.org/visual-studio-code-bin.git
+cd visual-studio-code-bin/
+makepkg
+sudo pacman -U visual-studio-code-bin-*
+cd ..
 echo -e "${BO}====================[${RED}Deleting AUR dependencies...${BO}]====================${NC}"
-#rm -rf visual-studio-code-bin/
+rm -rf visual-studio-code-bin/
 echo -e "${BO}======================[${RED}Copying Settings File...${BO}]======================${NC}"
 cd "/home/"$userName""
 mkdir -p .config/Code/User
