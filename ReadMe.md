@@ -1,20 +1,20 @@
 ## How to install Visual Studio Code on Arch-linux
 ![vscode_logo](https://user-images.githubusercontent.com/90350173/148343289-5de1dfc9-5160-4484-b301-72a8634aff20.png)
 ### Note before installing
-   This guide uses: sudo, git, pacman, and the Arch/AUR repositories.<br />
-   The mentioned later script was tested only on EndeavourOS(Arch-based)<br />
-   I do not take any responsibility for any kind of damage this guide or script might cause,<br />
-   use them at your own risk.<br />
+    This guide uses: sudo, git, pacman, and the Arch/AUR repositories.<br />
+    The mentioned later script was tested only on EndeavourOS(Arch-based)<br />
+    I do not take any responsibility for any kind of damage this guide or script might cause,<br />
+    use them at your own risk.<br />
 <br />
 <br />
 ### Auto-Installer
-   download the `auto-Installer-Visual-Studio-Code.sh` file.<br />
-   enter the next commands into the terminal: <br />
-   `sudo chmod +x auto-Installer-Visual-Studio-Code.sh`<br />
-   `sudo pacman -Syu`<br />
-   `./auto-Installer-Visual-Studio-Code.sh`<br />
-   🞄 the script will ask you multiple times to confirm the installations.<br />
-   🞄 after the script finishes follow the `Manual-Install(set-up VScode and C#)`
+ download the `auto-Installer-Visual-Studio-Code.sh` file.<br />
+    enter the next commands into the terminal: <br />
+    `sudo chmod +x auto-Installer-Visual-Studio-Code.sh`<br />
+    `sudo pacman -Syu`<br />
+    `./auto-Installer-Visual-Studio-Code.sh`<br />
+    🞄 the script will ask you multiple times to confirm the installations.<br />
+    🞄 after the script finishes follow the `Manual-Install(set-up VScode and C#)`
 <br />
 ### Manual-Install
    enter the next command into the terminal: `sudo pacman -Syu`<br />
