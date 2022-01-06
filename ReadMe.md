@@ -14,6 +14,7 @@
    `sudo pacman -Syu`<br />
    `./auto-Installer-Visual-Studio-Code.sh`<br />
    🞄 the script will ask you multiple times to confirm the installations.<br />
+   🞄 after the script finishes follow the `Manual-Install(set-up VScode and C#)`
 <br />
 ### Manual-Install
    enter the next command into the terminal: `sudo pacman -Syu`<br />
@@ -28,7 +29,9 @@
     > makepkg <br />
     > sudo pacman -U visual-studio-code-bin-* <br />
     now you can start Visual Studio Code. <br />
-   However incase you need to setup C#(CSharp) on it here's how: <br />
+    <br />
+### Manual-Install(set-up VScode and C#)
+   Incase you need to setup C#(CSharp) on it here's how: <br />
     in VSCode go to Extensions <br />
     ![image](https://user-images.githubusercontent.com/90350173/148344532-c8237ec5-e1e6-4bbc-a2da-fa5695468612.png) <br />
     and install the `C#` and `code runner` extensions <br />
@@ -43,14 +46,22 @@
     scroll down to `csharp` and instead of `scripts` write `cd $dir && sudo dotnet run $fileName` <br />
     ![image](https://user-images.githubusercontent.com/90350173/148345367-2cebc037-c32f-41d2-8d3d-fca62c29e104.png) <br />
     save the file. <br />
-    
-
-
-   
+<br />
+### Manual-Install(set-up C# project)
+   open in `File` -> `Open Folder...` your chosen work directory <br />
+   then go to `Terminal` -> `New Terminal` <br />
+   🞄 to create a console application run the next command: <br />
+   `sudo dotnet new console` <br />
+   🞄 then to be able to save your project run: <br />
+   `sudo chmod +x Program.cs` <br />
+   🞄 Hopefully everything in this guide worked for you! <br />
+   🞄 now you should be able to run your C# projects with the 'Code-Runner' extension and save properly! <br />
+<br />
+<br />
 <br />
 <br />
 <br />
 ```diff
 - created by https://github.com/000Daniel
 ```
-Publish/Release dates: 05.01.2022
+Publish/Release dates: 06.01.2022
