@@ -21,7 +21,7 @@
 ### Manual-Install
     enter the next command into the terminal: `sudo pacman -Syu`<br />
     now enter the next commands: <br />
-    `sudo pacman -S dotnet-sdk` <br />
+    `sudo pacman -S dotnet-sdk git gcc-libs glibc gnupg gtk3 libnotify libsecret libxss lsof nss shared-mime-info xdg-utils glib2` <br />
     to verify that the installation of the framework worked, type: <br />
     `dotnet --version` <br />
     now we'll install the software itself: <br />
@@ -66,7 +66,7 @@
     open in `File` ➔ `Open Folder...` your chosen work directory <br />
     then go to `Terminal` ➔ `New Terminal` <br />
     🞄 to create a C# console application run the next command: <br />
-    `sudo dotnet new console` <br />
+    `dotnet new console` <br />
     🞄 then to be able to save your project, run: <br />
     `sudo chmod +x Program.cs` <br />
 <br />
