@@ -11,7 +11,7 @@ PUR='\033[0;35m'
 DefDir=$(pwd)
 
 echo -e "${BO}=====================[${RED}Installing dependencies...${BO}]=====================${NC}"
-sudo pacman -S dotnet-sdk git
+sudo pacman -S dotnet-sdk git gcc-libs glibc gnupg gtk3 libnotify libsecret libxss lsof nss shared-mime-info xdg-utils glib2
 echo -e "${BO}===================[${RED}Downloading AUR dependencies...${BO}]==================${NC}"
 cd "/home/"$userName"/Downloads/"
 git clone https://AUR.archlinux.org/visual-studio-code-bin.git
